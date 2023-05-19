@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "appServiceName": {
+            "value": "BotAppServiceSample-001"
+        },
+        "existingAppServicePlanName": {
+            "value": ""
+        },
+        "existingAppServicePlanLocation": {
+            "value": ""
+        },
+        "newAppServicePlanName": {
+            "value": "BotAppServicePlan"
+        },
+        "newAppServicePlanLocation": {
+            "value": "southeastasia"
+        },
+        "newAppServicePlanSku": {
+            "value": {
+                "name": "F1",
+                "tier": "Free",
+                "size": "F1",
+                "family": "F",
+                "capacity": 1
+            }
+        },
+        "appId": {
+            "value": "7ad5d288-6ba6-403d-a090-65f4eac1f254"
+        },
+        "appSecret": {
+            "value": "~yh8Q~E_Nr.kaF5WiVP5qHIj7c0qo6RdMjhgWdbS"
+        }
+    }
+}

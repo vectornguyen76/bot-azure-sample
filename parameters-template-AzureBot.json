@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "azureBotId": {
+            "value": "AzureBotSample-001"
+        },
+        "azureBotSku": {
+            "value": "F0"
+        },
+        "azureBotRegion": {
+            "value": "global"
+        },
+        "botEndpoint": {
+            "value": "https://botappservicesample-001.azurewebsites.net/api/messages"
+        },
+        "appId": {
+            "value": "7ad5d288-6ba6-403d-a090-65f4eac1f254"
+        }
+    }
+}
