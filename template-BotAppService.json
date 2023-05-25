@@ -76,12 +76,12 @@
             "apiVersion": "2018-02-01",
             "location": "[parameters('newAppServicePlanLocation')]",
             "tags": {
-                "Creator": "CuongVT1",
-                "ProjectID": "SelDepAI",
-                "OwnerService": "DucDM12",
-                "ApplicationName": "QAI-Dev/Demo",
-                "Project": "SelDevAI",
-                "Purpose": "Demo NK"
+                "Creator": "MyCreator",
+                "ProjectID": "MyProjectID",
+                "OwnerService": "MyOwnerService",
+                "ApplicationName": "MyApplicationName",
+                "Project": "MyProject",
+                "Purpose": "MyPurpose"
             },
             "sku": "[parameters('newAppServicePlanSku')]",
             "kind": "linux",
@@ -101,12 +101,12 @@
             "location": "[variables('servicePlanLocation')]",
             "kind": "app,linux",
             "tags": {
-                "Creator": "CuongVT1",
-                "ProjectID": "SelDepAI",
-                "OwnerService": "DucDM12",
-                "ApplicationName": "QAI-Dev/Demo",
-                "Project": "SelDevAI",
-                "Purpose": "Demo NK"
+                "Creator": "MyCreator",
+                "ProjectID": "MyProjectID",
+                "OwnerService": "MyOwnerService",
+                "ApplicationName": "MyApplicationName",
+                "Project": "MyProject",
+                "Purpose": "MyPurpose"
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Web/serverfarms', variables('servicePlanName'))]"
@@ -164,12 +164,12 @@
             "name": "[concat(parameters('appServiceName'), '/web')]",
             "location": "[variables('servicePlanLocation')]",
             "tags": {
-                "Creator": "CuongVT1",
-                "ProjectID": "SelDepAI",
-                "OwnerService": "DucDM12",
-                "ApplicationName": "QAI-Dev/Demo",
-                "Project": "SelDevAI",
-                "Purpose": "Demo NK"
+                "Creator": "MyCreator",
+                "ProjectID": "MyProjectID",
+                "OwnerService": "MyOwnerService",
+                "ApplicationName": "MyApplicationName",
+                "Project": "MyProject",
+                "Purpose": "MyPurpose"
             },
             "dependsOn": [
                 "[resourceId('Microsoft.Web/sites', parameters('appServiceName'))]"

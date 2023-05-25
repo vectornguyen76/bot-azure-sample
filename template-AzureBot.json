@@ -42,12 +42,12 @@
           "name": "[parameters('azureBotId')]",
           "location": "[parameters('azureBotRegion')]",
           "tags": {
-            "Creator": "CuongVT1",
-            "ProjectID": "SelDepAI",
-            "OwnerService": "DucDM12",
-            "ApplicationName": "QAI-Dev/Demo",
-            "Project": "SelDevAI",
-            "Purpose": "Demo NK"
+            "Creator": "MyCreator",
+            "ProjectID": "MyProjectID",
+            "OwnerService": "MyOwnerService",
+            "ApplicationName": "MyApplicationName",
+            "Project": "MyProject",
+            "Purpose": "MyPurpose"
           },
           "kind": "azurebot",
           "sku": {

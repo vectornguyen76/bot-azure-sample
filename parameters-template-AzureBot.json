@@ -15,7 +15,7 @@
             "value": "https://botappservicesample-001.azurewebsites.net/api/messages"
         },
         "appId": {
-            "value": "7ad5d288-6ba6-403d-a090-65f4eac1f254"
+            "value": "MyAppId"
         }
     }
 }
