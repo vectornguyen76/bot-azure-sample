@@ -2,12 +2,12 @@
 
 ### Step 1: Create Resource Group
 <p align="center">
-  <img src="./doc/Resource Group.jpg" alt="animated" />
+  <img src="./documents/Resource Group.jpg" alt="animated" />
 </p>
 
 ### Step 2: Create App Registrations
 <p align="center">
-  <img src="./doc/App Registrations.jpg" alt="animated" />
+  <img src="./documents/App Registrations.jpg" alt="animated" />
 </p>
 
 ### Step 3: Create App Service
@@ -38,15 +38,15 @@ az webapp deployment source config-zip --resource-group "MyGroupResource" --name
 ## Result Build Bot
 ### Test Chat Azure
 <p align="center">
-  <img src="./doc/TestChat.jpg" alt="animated" />
+  <img src="./documents/TestChat.jpg" alt="animated" />
 </p>
 
 ### Test Chat in Microsoft Teams
 <p align="center">
-  <img src="./doc/AddTeams.jpg" alt="animated" />
+  <img src="./documents/AddTeams.jpg" alt="animated" />
 </p>
 <p align="center">
-  <img src="./doc/ChatTeams.jpg" alt="animated" />
+  <img src="./documents/ChatTeams.jpg" alt="animated" />
 </p>
 
 ## Reference 
